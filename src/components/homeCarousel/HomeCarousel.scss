@@ -1,0 +1,15 @@
+.homeCarousel {
+  .rightArrow {
+    position: absolute;
+    top: 174px;
+    right: 0;
+    padding: 6px;
+  }
+  .leftArrow {
+    position: absolute;
+    top: 174px;
+    left: 0;
+    padding: 6px;
+    z-index: 1;
+  }
+}

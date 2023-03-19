@@ -1,12 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.scss";
-
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
+import { NavBar } from "./components/navBar/NavBar";
+import "../src/styles/reset.scss";
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App">dsd</div>;
+  return (
+    <div className="App">
+      <NavBar />
+      <RouterProvider router={router} />
+    </div>
+  );
 }
 
 export default App;
