@@ -1,10 +1,16 @@
-.button {
+.default {
   font-size: 18px;
   padding: 18px;
   border-radius: 8px;
-  &.primary {
-  }
+}
 
-  &.secondary {
-  }
+.primary {
+  color: #131b30;
+  padding: 15px;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 147, 179);
+  border-radius: 6px;
+}
+
+.secondary {
 }

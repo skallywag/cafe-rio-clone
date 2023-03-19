@@ -4,10 +4,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: static;
+  position: sticky;
   top: 0;
   padding: 18px 20px;
   background-color: $white;
+  z-index: 100;
 
   .linkContainer {
     display: flex;

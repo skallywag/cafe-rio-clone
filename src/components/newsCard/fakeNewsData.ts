@@ -1,6 +1,7 @@
 import careers from "../../assets/careers-home-2.jpeg";
 import catering from "../../assets/catering-home.jpeg";
 import burrito from "../../assets/burrito-home.jpeg";
+import { Button } from "../../shared/button/Button";
 
 export const fakeNewsData = [
   {

@@ -1,10 +1,12 @@
 import "./NewsCard.scss";
 import { Button } from "../../shared/button/Button";
+import { ReactNode } from "react";
 interface NewsCardProps {
   id: number;
   imageUrl: string;
   title: string;
   description: string;
+  button?: ReactNode;
 }
 const NewsCard: React.FC<NewsCardProps> = (props) => {
   return (
@@ -13,9 +15,14 @@ const NewsCard: React.FC<NewsCardProps> = (props) => {
 
       <div className="content">
         <h1 style={{ marginBottom: "16px" }}>{props.title}</h1>
-        <h3>{props.description}</h3>
+        <h2>{props.description}</h2>
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
-          <Button onClick={() => {}} text={"Order"} type={"button"} />
+          <Button
+            onClick={() => {}}
+            text={"Order"}
+            className={"primary"}
+            type={"button"}
+          />
         </div>
       </div>
     </div>

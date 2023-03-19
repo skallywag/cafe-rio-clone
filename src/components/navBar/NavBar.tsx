@@ -12,11 +12,11 @@ const NavBar: React.FC<NavBarProps> = () => {
         <h4 style={{ color: "darkblue" }}>Sign in & Earn Rewards</h4>
       </div>
       <div className="linkContainer">
-        <h4 style={{ color: "darkblue" }}>Order</h4>
-        <h4 style={{ color: "darkblue" }}>Catering</h4>
-        <h4 style={{ color: "darkblue" }}>My Rio Rewards</h4>
-        <h4 style={{ color: "darkblue" }}>Gift Cards</h4>
-        <h4 style={{ color: "darkblue" }}>Rewards</h4>
+        <a>Order</a>
+        <a>Catering</a>
+        <a>My Rio Rewards</a>
+        <a>Gift Cards</a>
+        <a>Rewards</a>
       </div>
       <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
         <h6 style={{ color: "darkblue" }}>Find Your Local Cafe Rio</h6>
