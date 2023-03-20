@@ -1,0 +1,31 @@
+.optionBar {
+  border-bottom: 1px solid rgb(239, 241, 247);
+  z-index: 4;
+  overflow: auto;
+  width: 100vw;
+  position: fixed;
+  top: 77px;
+  white-space: nowrap;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  height: 48px;
+  background: white;
+  -webkit-box-align: center;
+  align-items: center;
+  text-transform: uppercase;
+
+  .refLink {
+    color: rgb(141, 145, 156);
+    cursor: pointer;
+  }
+
+  h4::before {
+    content: "/";
+    margin: 0 2rem;
+  }
+  .active {
+    color: red;
+  }
+}

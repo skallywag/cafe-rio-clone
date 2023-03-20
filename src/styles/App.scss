@@ -2,6 +2,15 @@
 @import "./variables.scss";
 @import "./global";
 
+* {
+  scroll-margin-top: 130px;
+}
 .App {
   height: 100%;
+  .navBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
 }

@@ -43,12 +43,18 @@ const Footer: React.FC<FooterProps> = (props) => {
         }}
       >
         <div style={{ display: "flex", gap: "20px" }}>
-          <a href="">© 2020 CAFE RIO. ALL RIGHTS RESERVED</a>
-          <a href="">TERMS OF USE</a>
-          <a href="">TERMS AND CONDITIONS</a>
-          <a href="">PRIVACY POLICY</a>
-          <a href="">DO NOT SELL MY PERSONAL INFORMATION</a>
-          <a href="">AMBASSADOR</a>
+          <a style={{ fontSize: "10px" }}>
+            © 2020 CAFE RIO. ALL RIGHTS RESERVED
+          </a>
+          <a style={{ fontSize: "10px" }}>TERMS OF USE</a>
+          <a style={{ fontSize: "10px" }}>TERMS AND CONDITIONS</a>
+          <a style={{ fontSize: "10px" }}>TERMS AND CONDITIONS</a>
+          <a style={{ fontSize: "10px" }}>TERMS AND CONDITIONS</a>
+          <a style={{ fontSize: "10px" }}>PRIVACY POLICY</a>
+          <a style={{ fontSize: "10px" }}>
+            DO NOT SELL MY PERSONAL INFORMATION
+          </a>
+          <a style={{ fontSize: "10px" }}>AMBASSADOR</a>
         </div>
         <div style={{ display: "flex", gap: "20px" }}>
           <AiOutlineInstagram size={20} />

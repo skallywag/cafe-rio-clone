@@ -1,6 +1,7 @@
 import "./NewsCard.scss";
 import { Button } from "../../shared/button/Button";
 import { ReactNode } from "react";
+
 interface NewsCardProps {
   id: number;
   imageUrl: string;
@@ -8,6 +9,7 @@ interface NewsCardProps {
   description: string;
   button?: ReactNode;
 }
+
 const NewsCard: React.FC<NewsCardProps> = (props) => {
   return (
     <div className="newsCard">

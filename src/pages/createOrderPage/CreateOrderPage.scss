@@ -1,0 +1,16 @@
+.createOrderPage {
+  background-color: rgb(241, 246, 247);
+  .pageWrapper {
+    padding: 170px 0px 40px 24px;
+    .optionSection {
+      display: flex;
+      flex: 1 1 0%;
+      flex-flow: row wrap;
+      width: calc(100% - 450px);
+      background-repeat: no-repeat;
+      margin-top: 0.5rem;
+      gap: 24px;
+      margin-bottom: 100px;
+    }
+  }
+}
