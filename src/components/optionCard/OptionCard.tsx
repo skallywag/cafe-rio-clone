@@ -1,8 +1,9 @@
 import "./OptionCard.scss";
 
 interface OptionCardProps {
+  id: number;
   imageUrl: string;
-  title: string;
+  saleItem: string;
   onClick?: () => void;
   isSelected?: boolean;
   isActive?: boolean;
@@ -16,7 +17,7 @@ const OptionCard: React.FC<OptionCardProps> = (props) => {
         <img src="https://www.caferio.com/svg/item-select.svg" />
       )}
 
-      <h4 style={{ textAlign: "center" }}>{props.title}</h4>
+      <h4 style={{ textAlign: "center" }}>{props.saleItem}</h4>
     </div>
   );
 };
